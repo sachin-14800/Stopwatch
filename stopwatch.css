@@ -1,0 +1,84 @@
+/* styling the body of the page */
+body{
+    background-color:#2c3e50;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* container for the stopwatch */
+#container{
+    color:cornsilk;
+    display: flex;
+    flex-direction: column;
+}
+/* class for denoting each hour min sec of the clock */
+.number{
+    font-size: 150px;
+    font-weight: bold;
+}
+/* class for the words hr min sec in the clock */
+.text{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/*  for the buttons container */
+#buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+/* individual button */
+button{
+    border:none;
+    height:50px;
+    width: 100px;
+    font-size: 20px;
+    color:white;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+/* background color corresponding to each button  */
+#start{
+    background-color: #1abc9c;
+}
+#stop{
+    background-color: #3498db;
+}
+#reset{
+    background-color: #e74c3c;
+}
+#flag{
+    background-color: rgb(180, 180, 97);
+}
+
+/* container for the flagged times */
+#flagged{
+    display: block;
+    position: relative;
+    width:100%;
+}
+/* class for showing a line used as a separation */
+.line{
+    position: relative;
+    margin-top: 20px;
+    width: 80%;
+    text-align: center;
+    border:2px solid white;
+}
+
+/* class for the content of the flagged time */
+.flag{
+    display: flex;
+    position: relative;
+    width: 60%;
+    left:20%;
+    margin: 10px 2px;
+    padding:5px;
+    color:white;
+    justify-content: space-around;
+    border:0.5px solid white;
+    border-radius: 1rem;
+}

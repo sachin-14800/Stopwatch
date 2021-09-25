@@ -1,0 +1,48 @@
+<!-- html starts -->
+<html>
+    <!-- head starts -->
+    <head>
+        <title>Stopwatch</title>
+        <!-- adding the css file  -->
+        <link rel="stylesheet" type="text/css" href="stopwatch.css">
+        
+    </head>
+    <!-- head ends -->
+
+    <!-- body starts -->
+    <body>
+        <!-- container for the stopwatch -->
+        <div id="container">
+            <!-- main container for showing the time -->
+            <div id="time">
+                <span class="number" id="hour">00</span>
+                <span class="text">Hr</span>
+                <span class="number" id="min">00</span>
+                <span class="text">Min</span>
+                <span class="number" id="sec">00</span>
+                <span class="text">Sec</span>
+                <span class="number" id="milisec">00</span>
+            </div>
+            <!-- containing for showing the buttons -->
+            <div id="buttons">
+                <!-- start button with a start click event to start the clock -->
+                <button class="btn" id="start" onclick="starttime()">Start</button>
+                <!-- stop button with a stop click event to pause the clock -->
+                <button class="btn" id="stop" onclick="stoptime()">Stop</button>
+                <!-- reset button with a reset event to reset the clock back to zero state -->
+                <button class="btn" id="reset" onclick="reset()">Reset</button>
+                <!-- Flag button to mark the time  -->
+                <button class="btn" id="flag" onclick="flag()">Flag</button>
+            </div>
+            
+        </div>
+        <!-- container for the flagged time  -->
+        <div class="line"></div>
+        <div id="flagged">
+        </div>
+        <!-- adding a script file -->
+        <script type="text/javascript" src="stopwatch.js"></script>
+    </body>
+    <!-- body ends -->
+</html>
+<!-- html ends -->
