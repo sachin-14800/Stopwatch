@@ -11,3 +11,5 @@ The stop button will pause the stopwatch.
 The reset button will make watch back to its original state i.e. 0hr 0 min 0 sec.
 
 The flag button will keep on adding the flag time a the flagged container.
+
+Hosted using GH-pages Link: https://sachin-14800.github.io/Stopwatch/
